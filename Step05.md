@@ -78,7 +78,8 @@ public class LoginServlet extends HttpServlet {
 </head>
 <body>
 	<form action="/login.do" method="POST">
-		Name : <input type="text" /> <input type="submit" />
+		Name :  <input name="name" type="text" /> 
+		<input type="submit" />
 	</form>
 </body>
 </html>
